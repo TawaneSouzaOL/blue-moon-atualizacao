@@ -1,0 +1,60 @@
+/* ------------------------------------- */
+/*nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    grid-area: header;
+}
+
+.logo {
+    max-width: 60px;
+    margin-left: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+section {
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+span  {
+    width: 160px;
+    height: 100px;
+    position:absolute;
+    display: flex;
+    background-color: violet;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position:relative;
+    font-weight: 800;
+    margin-bot: 5;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg, rgba(3,2,23,1), rgba(16,137,208, 1), rgba(3,2,23,1));
+    width: 45px;
+     height: 4px;
+    border-radius: 4px;
+    bottom: 5px;
+    margin-top: 4rem;
+    left: 0;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "content content content";
+}*/

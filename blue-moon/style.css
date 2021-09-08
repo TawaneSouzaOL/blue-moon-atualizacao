@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.section-initial {
+    background-image: url(./images/nasa-pd4lo70LdbI-unsplash.jpg); 
+    background-attachment: fixed;
+}
+
+.header {
+    background: linear-gradient(45deg, #0e0e0e, #050505);
+    border-radius: 0 0 10px 10px;
+}
+
+.header nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.header nav a {
+    padding: 10px;
+    display: block;
+    margin-right: auto;
+}
+
+.header .logo {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header nav ul li .btn {
+    font-size: 1.125em;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: linear-gradient(236.87deg, #05A4FD 18%, #324576 83.60%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-position: 121px;
+}
+
+.header nav ul li .btn:hover {
+    background: linear-gradient(236.87deg, #05A4FD 20%, #324576 85.60%);
+}
+
+.section-initial .title-subtitle {
+    width: 430px;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0 0 5%;
+}
+
+.section-initial .title-subtitle span h1 {
+    font-size: 150px;
+    font-weight: 900;
+}
+
+.section-apresentation {
+   background: linear-gradient(45deg, #0e0e0e, #050505);
+   height: 80vh;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+
+.section-apresentation .span { /*Nota: por algum motivo a tag <span> nao estava funcionando e por isso utilizei uma div no lugar*/
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 11% 0 0 10%;
+}
+
+.section-apresentation .img-astronauts {
+    width: 200px;
+    height: 400px;
+    margin: 25% 0 0 30%;
+}
+
+.section-apresentation .img-astronauts img {
+    border-radius: 10px;
+}
+
+.background-image {
+    background-color: #000;
+}
+
+.background-image img {
+    object-fit: cover;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.section-product {
+   height: 115vh;
+   background: linear-gradient(45deg, #0e0e0e, #050505);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-auto-rows: 0px;
+}
+
+.section-product h2 {
+    margin: 20% 0 0 9%;
+}
+
+.section-product .cards {
+    width: 325px;
+    height: 400px;
+    background-color: #1f1f1f;
+    margin: 55% 0 0 9%;
+    border-radius: 10px;
+    text-justify: center;
+    box-shadow: 2px 2px #05A4FD;
+}
+
+.section-product .cards img {
+    border-radius: 10px 10px 0 0;
+}
+
+.section-product .cards p {
+    padding: 10px;
+}
+
+.section-form {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-form h2 {
+    position: absolute;
+    margin-top: 5%;
+}
+
+.section-form .form {
+    background: linear-gradient(236.87deg, #05A4FD 18.01%, #324576 83.58%);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.section-form .form form {
+    background-color: #444343;
+    padding: 10px;
+    width: 550px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-flow: wrap row; */
+    grid-auto-flow: row;
+}
+
+.section-form form, .form {
+    border-radius: 10px;
+    position: relative;
+}
+
+.section-form .form span {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.section-form .form form .input-control {
+    /* flex: 1 1; */
+    display: block;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #05A4FD;
+    background-color: #707070;
+}
+
+.section-form .form form .div-input-control-name {
+    grid-column: 1 / -1;
+}
+
+.section-form .form form .div-input-control-name .input-control-name {
+    width: 92%;
+}
+
+.section-form button {
+    background: linear-gradient(236.87deg, #05A4FD 18.01%, #324576 83.58%);
+    padding: 10px;
+    border: none;
+    font-size: 1.125em;
+    border-radius: 10px;
+    margin-top: 10%;
+    cursor: pointer;
+    margin-top: 30%;
+}
+
+.section-api {
+    height: 155vh;
+    position: relative;
+    background: linear-gradient(45deg, #0e0e0e, #050505);
+}
+
+.section-api .infos {
+    background: linear-gradient(45deg, #0e0e0e, #050505);
+}
+
+.section-api div {
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #1f1f1f; 
+}
+
+.section-api .infos div #img-id-name {
+    height: 400px; 
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(45deg, #0e0e0e, #050505);
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+}
+
+footer span {
+    text-align: center;
+    margin: 65px 0 0 225px;
+}
+
+footer  ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+footer  ul li {
+    display: flex;
+    margin: 65px 50px 0 0;
+    transition: 0.9s ease-out;
+}
+
+footer  ul li .fab {
+    color: #404040;
+    cursor: pointer;
+    display: flex;
+    font-size: 30px;
+}
+
+footer ul li:hover .fab {
+    color: rgba(255, 255, 255, 0.548);
+}
